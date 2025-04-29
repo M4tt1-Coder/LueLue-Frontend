@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 23
-      - run: npm install pnpm@latest
+      - run: npm install -g pnpm@latest
       - run: pnpm install
       - run: pnpm build
       - name: Deploy to Pages Production

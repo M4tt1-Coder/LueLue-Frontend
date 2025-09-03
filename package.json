@@ -1,6 +1,19 @@
 {
-  "name": "lue-lue-frontend",
-  "version": "0.1.0",
+  "name": "LueLue-Frontend",
+  "author": "Matthis Geißler",
+  "description": "NextJS frontend for the LueLue Card game. It commnunicates with the backend service to keep the status up to date.",
+  "version": "0.0.1",
+  "keywords": [
+    "card",
+    "game",
+    "Drachenlord",
+    "Hagebuddne"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M4tt1-Coder/LueLue-Frontend.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,19 +22,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "next": "15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.0",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
   }
 }

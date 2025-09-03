@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-// TODO - Connect to cloudflare pages -> https://developers.cloudflare.com/pages/framework-guides/nextjs/
-// TODO - Set up CI / CD -> connect to Cloudflare workers with GitHub Actions
+// TODO: - Connect to cloudflare pages -> https://developers.cloudflare.com/pages/framework-guides/nextjs/
+// TODO: - Set up CI / CD -> connect to Cloudflare workers with GitHub Actions
 
 export default function Home() {
   return (
